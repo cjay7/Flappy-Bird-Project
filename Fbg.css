@@ -1,0 +1,122 @@
+.strtpage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(startbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ .header h1{
+    font-family: 'a Abstract Groovy', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn button{
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    background-color: rgba(0, 255, 106, 0.966);
+    border-color: rgba(0, 255, 106, 0.966);
+    font-family: 'a Abstract Groovy', sans-serif;
+    font-size: 50px;
+}
+
+/*main-page*/
+
+.mpage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(startbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.p-buttons1{
+    height: 282.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-buttons1 button{
+    margin-top: 200px;
+}
+.p-buttons2{
+    height: 282.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-buttons2 button{
+    margin-bottom: 200px;
+}
+.p-buttons button{
+    padding: 10px 50px;
+    background-color: rgba(0, 255, 106, 0.966);
+    border-color: rgba(0, 255, 106, 0.966);
+    font-family: 'a Abstract Groovy', sans-serif;
+    font-size: 30px;
+   
+}
+.mpage footer{
+    display: flex;
+    align-items: center;
+    padding: 10px 1%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+   
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.mpage footer  img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.f-right{
+    float: right;
+}
+
+/*FLY*/
+
+.fpage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(startbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fly{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 20px;
+}
+.fly img{
+    width: 400px;
+}
+.fly #btn{
+    padding: 10px 50px;
+    background-color: rgba(0, 255, 106, 0.966);
+    border-color: rgba(0, 255, 106, 0.966);
+    font-family: 'a Abstract Groovy', sans-serif;
+    font-size: 20px;
+    width: 416px;
+}
+.co-op{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.smode{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
